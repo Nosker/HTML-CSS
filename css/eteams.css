@@ -1,0 +1,496 @@
+﻿
+/*测试*/
+/* 上导航栏定位 */
+body {
+	background: #EEEEEE;
+}
+.mainhead-postion {
+    position: absolute;
+    top: 0
+    right: 0;
+    left: 0;
+    z-index: 100;
+}
+/* 上导航栏样式 */
+.mainhead-style {
+    display: block;
+    height: 50px;
+    width: 100%;
+    background: #2DC3E8;
+}
+/* 用户div 定位、 大小 颜色  */
+.user-div {
+    position: absolute;
+    margin: 0;
+    height: 50px;
+    width: 220px;
+
+}
+.user-div-hover {
+    
+}
+/* user图标定位  */
+.user-icon {
+    position: absolute;
+    margin: 3px 10px;
+}
+/* user图标 大小、显示方式 */
+.user-graph-home {
+    width: 42px;
+    height: 42px;   
+    background-image: url(../img/user-icon.png);
+    background-repeat: no-repeat;
+    display: block;  
+}
+/* 用户名lable */
+.user-lable {
+    position: absolute;
+    margin: 12px 63px;
+    color: white;
+    font-size: 16px;
+}
+/* 箭头 */
+.arrows {
+    position: absolute;
+    margin: 24px 124px;
+    
+    height: 16px;
+    width: 16px;
+    
+    background-image: url(../img/iocn-down.png);
+    background-repeat: no-repeat;
+    display: block;
+    vertical-align: middle; /*上下居中*/
+}
+
+/* home */
+.home-div {
+	position: absolute;
+	margin: 0 220px;
+	height: 50px;
+	width: 48px;	
+/*	background-color: #273240;*/
+}
+.home-icon {
+	position: relative;
+   	margin: 16px  16px;
+	height: 16px;
+    width: 16px;    
+    background-position: 0 0;
+    background-image: url(../img/eteams_icons.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+/* 任务 */
+
+.task-div {
+	position: absolute;
+   	margin: 0px  280px;   	
+   	height: 50px;
+   	width: 105px;
+ /*  	background-color: chartreuse;*/
+}
+
+.task-icon {
+	position: absolute;
+   	margin: 17px  0;  
+	height: 16px;
+    width: 16px;  
+    background-position: -33px 0;
+    background-image: url(../img/eteams_icons.png);
+    background-repeat: no-repeat;
+    display: block;
+	
+}
+.task-font {
+	position: absolute;
+	margin-left: 20px;
+	margin-top: 12px;	
+	font-size: 16px;
+	color: #FFFFFF;
+}
+
+/* 审批 */
+.approve {
+	position: absolute;
+	margin: 0 380px;	
+	height: 50px;
+	width: 117px;
+/*	background: fuchsia;*/
+}
+.approve-icon {
+	position: absolute;
+   	margin: 17px  0; 
+	height: 16px;
+    width: 16px;  
+    background-position: -95px 0;
+    background-image: url(../img/eteams_icons.png);
+    background-repeat: no-repeat;
+    display: block;
+	
+}
+.approve-text {
+	position: absolute;
+	margin-left: 20px;
+	margin-top: 13px;	
+	font-size: 16px;
+	color: #FFFFFF;
+}
+
+/* 更多应用 */
+.adhibition {
+	position: absolute;
+   	margin: 0px  470px;  	
+   	height: 50px;
+   	width: 117px;
+  /* 	background-color: antiquewhite;*/
+}
+.adhibition-icon {
+	position: absolute;
+	margin: 20px 99px;	
+	height: 16px;
+	width: 16px;
+	background-repeat: no-repeat;
+	background-image: url(../img/iocn-down.png);
+}
+.adhibition-font {
+	position: absolute;
+	margin-left: 20px;
+	margin-top: 13px;	
+	font-size: 16px;
+	color: #FFFFFF;
+}
+
+.adds {
+	position: absolute;
+	margin: 0 1460px;
+	height: 50px;
+	width: 40px;
+	
+/*	background: red;*/
+}
+.adds-icon {
+	position: absolute;
+	margin-top: 17px;
+	margin-left: 12px;
+	
+	height: 15px;
+	width: 16px;
+	background-position: 0px -33px;
+	background-image: url(../img/eteams_icons.png);
+}
+.seek {
+	position: absolute;
+	margin: 10px 1510px;
+	border-radius: 15px 15px 15px 15px  ;
+	height: 30px;
+	width:  208px;	
+	rotation: 50%;
+	background-color: #1AAED2;
+}
+
+.seek-text {
+	position: absolute;
+	margin: 3px 20px;
+	font-size: 14px;
+	color: #FAEBD7;	
+}
+.seek-icon {
+	position: absolute;
+	margin-top: 7px;
+	margin-left: 170px;	
+	height: 16px;
+	width: 16px;
+	background-image: url(../img/seek.png);
+}
+.qq-login {
+	position: absolute;
+	margin: 0 1730px;	
+	height: 50px;
+	width: 40px;
+}
+.qq-icon {
+	position: absolute;
+	margin: 16px 13px;	
+	height: 16px;
+	width: 16px;	
+	background-position: -130px -32px;
+	background-image: url(../img/eteams_icons.png);
+}
+/* eteams logo*/
+.logo {
+	position: absolute;
+	margin: 0 1770px;	
+	height: 50px;
+	width: 100px;
+}
+.logo-icon {
+	position: absolute;
+	margin: 16px 10px;	
+	height: 16px;
+	width: 63px;
+	background-position: -49px -32px;
+	background-image: url(../img/eteams_icons.png);
+}
+.logo-arrows-icon {
+	position: absolute;
+	margin: 20px 80px;	
+	height: 16px;
+	width: 16px;
+	background-repeat: no-repeat;
+	background-image: url(../img/iocn-down.png);	
+}
+/*左边导航*/
+.left-gps {
+	position: absolute;
+	margin: 50px 0;
+	height: 980px;
+    
+	width: 220px;	
+	background: #273240;
+	color: #D2D2D2;
+}
+.con-list {
+	z-index: 100;
+	height: 330px;
+	width: 220px;
+	background: #1E2631;
+		
+}
+/*个人设置*/
+.self-con {
+	 position: absolute;
+	 height: 50px; 
+	 width: 220px; 
+}
+.self-con i{
+	position: absolute;
+	margin: 16px 0 16px 16px;
+	height: 16px;
+	width: 16px;
+	background-position: -240px 0;
+	background-image: url(../img/eteams_icons.png);
+}
+.self-con-p {
+	 margin: 15px 0 15px 56px;
+	 font-size: 16px;
+}
+.self-ul {
+	position: absolute;
+	list-style-type:none;				/* 不显示项目符号 */
+	margin:50px 0px;
+	padding:0;
+}
+.self-ul li {
+	height: 40px;
+	width: 220px;
+	background-color: #1E2631;
+	
+}
+.self-ul li a {
+	position: absolute;
+	padding:10px 5px 10px 56px;
+	width: 157px;
+	text-decoration: none;
+	font-size: 14px;
+	color: #cdcdcd;
+}
+.self-ul li a:link,.self-ul li a:visited{
+	background-color:#1E2631;
+	color:#FFFFFF;
+}
+.self-ul li a:hover {background-color:#000000;}
+
+.main-mod{
+    position: relative;
+	margin: 0 220px;
+	height: 50px;
+	width: 1570px;
+	background: #EEEEEE;
+}
+.main-hd {
+	position: absolute;
+	margin: 50px 0;	
+	height: 51px;
+	width: 1670px;
+	border: 1px;
+	border-bottom-color: #CDCDCD;
+	border-bottom-style: solid;
+
+}
+.hruser-icon {
+	position: absolute;
+	margin: 10px 13px 10px 20px;	
+	height: 32px;
+	width: 32px;	
+	background-position: 110px -195px;
+	background-image: url(../img/eteams_icons.png);
+}
+.hruser-ul {
+	font:14px; 
+	color: #CDCDCD; 	
+}
+.hruser-ul li a.last {	border-right: 0;}
+.hruser-ul {
+ 	padding:16px 0 16px 70px; 
+ 	margin:0;
+	list-style:none;
+}
+.#hruser-ul li {
+ 	padding:16px 0 16px 0px; 
+ 	margin:0; 
+ 	list-style:none;	
+}
+.hruser-ul li { float:left; }
+.hruser-ul li a {
+ 	padding: 0px 10px 13px 10px;	
+ 	display:block;
+ 	color: grey;
+ 	text-decoration: none;
+ 	border: 0;
+}
+.hruser-ul li a:hover {
+ 	border-bottom:1px solid red;	
+ 	color:red;
+ 	text-decoration:none;
+}
+.hruser-ul li a.last { 	border-right:0; /* 去掉左侧边框 */}
+/**中间部分*/
+.self-info {
+	position: absolute;
+	margin: 120px 20px;
+	height: 970px;
+	width: 1040px;
+	background-color: #eee;
+
+}
+.self-info-ul {
+	position: absolute;
+	margin: 0;
+	padding: 0px;
+	border: 1px #cdcdcd solid;
+	border-bottom: 0;
+	color: grey;
+	
+
+}
+.self-info-ul li {
+	padding: 10px  20px;
+	list-style: none;
+	height: 28px;	
+	width: 1000px;
+	border-bottom: 1px #cdcdcd solid;
+	background: white;
+
+}
+.user-name,
+.user-number,
+.user-email,
+.user-phone,
+.user-pass,
+.user-sex{	margin-left: 10px;}
+.user-pass {
+	position: absolute;
+	border-radius:6px;
+    -webkit-border-radius: 6px;
+	height: 30px;
+	width: 110px;
+	color: #F3F3F3;
+	background: #2DC3E8;
+	
+}
+.user-name,
+.user-phone {
+	height: 20px;
+	border-style: none;
+	background: none;
+	color: grey;
+	
+}
+.self-info-ul li a {
+	text-decoration: none;
+	color: #2DC3E8;	
+}
+
+.self-occupation-ul {
+	margin-top: 295px;
+	padding: 0px;
+	border: 1px #CDCDCD solid;
+	border-bottom: 0;
+	color: grey;	
+	
+}
+.self-occupation-ul li {
+	padding: 10px  20PX;
+	border-bottom: 1px #CDCDCD solid;
+	list-style: none;
+	height: 28px;	
+	width: 1000px;
+	background: white;
+
+}
+.job-time,
+.job-number,
+.job-phone,
+.job-department,
+.system-administrator {	margin-left: 10px;}
+
+.job-time,
+.job-phone,
+.job-number {
+	height: 20px;
+	border-style: none;
+	background: none;
+	color: grey;
+	
+}
+.self-occupation-ul li a {
+	text-decoration: none;
+	color: #2DC3E8;
+	
+}
+.exit-team {
+	margin-left: 800px;
+	border-radius:6px;
+    -webkit-border-radius: 6px;
+	height: 30px;
+	width: 110px;
+	color: #F3F3F3;
+	background: #2DC3E8;
+}
+.job-exchange {
+	margin-right: 10px;
+	border-radius:6px;
+    -webkit-border-radius: 6px;
+	height: 30px;
+	width: 110px;
+	color: #F3F3F3;
+	background: #2DC3E8;
+}
+/*其他权限说明部分*/
+.authority-description ul{
+	margin: 100px 1080px;
+	padding: 0px;
+	color: grey;
+	background: red;
+	
+}
+.authority-description-ul li {
+	padding: 10px  20PX;
+	list-style: none;
+	width: 430px;
+	background: #EEEEEE;
+
+}
+.authority-description-li-head {
+	border: 1px #CDCDCD solid;
+	height: 20px;	
+}
+.authority-description-li-content {
+	padding-bottom: 10px;
+	border: 1px #CDCDCD solid;
+	border-top: none;
+	height: 120px;
+}
+.authority-description-li-content p {	margin: 10px 0;}
