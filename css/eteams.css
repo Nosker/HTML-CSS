@@ -487,7 +487,7 @@ body {
 	padding: 10px  20PX;
 	list-style: none;
 	width: 430px;
-	background: #EEEEEE;
+	background: #eee;
 
 }
 .authority-description-li-head {
@@ -508,6 +508,130 @@ body {
     margin: 0,0;
     height: 400px;
     width: 835px;
-    background: white;
+	background: #eee;
     
+}
+.selfcon {
+	position: absolute;
+	height: 400px;
+	width: 180px;
+	background: red;
+}
+
+.selfcon-icon {
+	position: absolute;
+	margin: 20px 50px;
+	height: 58px;
+	width: 58px;
+	border-radius: 50%;
+	background-image: url(../img/photo_max.png);
+}
+
+.selfcon ul {
+	margin: 100px 20px;
+	padding: 0;
+	width: 130px;
+	list-style: none;
+	font-size: 16px;
+	
+	
+}
+.selfcon ul li {
+	border: 1px #808080 solid;
+	margin-top: 5px;
+	height: 20px;
+	padding: 5px;
+	border-radius: 5px;
+	list-style: none;
+	font-size: 16px;
+	text-align:center;
+	background-color: #eee;
+	color: gray;
+		
+}
+
+.staff_search span {
+	margin:  10px 200px;
+	padding: 5px;
+	display: block;
+	font-size: 16px;
+	font-style:italic;
+	color: gray;
+}
+.staff_search input {
+	display: block;
+	margin: -34px 600px;
+}
+.panel {
+	margin-top: 50px;
+	margin-left: 210px;
+	border: 1px #cdcdcd solid;
+	height: 280px;
+	width: 590px;	
+	background: white;
+	
+	
+}
+.attention {
+	margin: 0;
+	height: 40px;
+	width: 295px;	
+	border: 1px #cdcdcd solid;
+	background: #fff;
+}
+.attention span {
+	display: block;
+	padding-top: 10px;
+	text-align: center;
+	font-size: 14px;
+	color: #0092B6;
+}
+.team {
+	margin:-43px 295px;
+	height: 40px;
+	width: 295px;	
+	border: 1px #cdcdcd solid;
+	background: #eee;
+}
+.team span {
+	display: block;
+	padding-top: 10px;
+	text-align: center;	
+	font-size: 14px;
+	color: gray;
+}
+.panel-context span {
+	margin-top: 100px;
+	display: block;
+	text-align: center;
+	font-size: 14px;
+	color: #808080;
+}
+
+.panel-context span a {
+	text-decoration: none;
+	color: #0092B6;
+	
+}
+#follow {
+	margin-top: 10px;
+	margin-left:210px ;
+}
+#follow,#morefollow {
+	color: gray;
+	background: white;
+	border: 1px gray  solid;
+	
+}
+#follow,
+#morefollow:hover{	background: #eee;}
+#inviting_olleague {
+	margin-top: 20px ;
+	margin-left: 607px;
+	background: #ED5565;
+	color: white;
+}
+#team-con {
+	background: #25B6E3;
+	color: white;
 }

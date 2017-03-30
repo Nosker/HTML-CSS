@@ -5,38 +5,34 @@ $(function (){
 		$("#user_con").hide();
 		
 	}
-	hideall();
+//	hideall();
 
 //	// 根据传入的id 让其隐藏。
 	function hide(obj){
-	//	alert('"'+obj+'"');
 		$(obj).hide();
 	};
 	function show(obj){
-	//	alert('"'+obj+'"');
 		$(obj).show();
 	};
 		
 	
 	
-//	// 根据传入的id 让其显示。
-//	function show(object obj){
-//		$(obj).show();
-//	};
-
-$(".user-div").mouseover(function(){
-	//alert("show")
-	show("#user_con");
-});	
 	
-$(".user-div").mouseout(function(){
-	//alert("hide");
-	hide("#user_con");
-});		
-	
-	
-	
-	
+	$(".user-div").mouseover(function(){
+		show("#user_con");
+	});	
+		
+	$(".user-div").mouseout(function(){
+		hide("#user_con");
+	});		
+		
+	$(".panel")	.mouseover(function(){
+		show("#user_con");
+	});	
+		
+	$(".panel")	.mouseout(function(){
+		hide("#user_con");
+	});	
 	
 	
 	
