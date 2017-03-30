@@ -1,4 +1,7 @@
-﻿
+﻿html,body {
+    margin: 0;
+    padding: 0;
+}
 /*测试*/
 /* 上导航栏定位 */
 body {
@@ -27,8 +30,8 @@ body {
     width: 220px;
 
 }
-.user-div-hover {
-    
+.user-div:hover{
+    background-color: #0092B6; 
 }
 /* user图标定位  */
 .user-icon {
@@ -498,3 +501,13 @@ body {
 	height: 120px;
 }
 .authority-description-li-content p {	margin: 10px 0;}
+
+
+#user_con {
+    position: absolute;
+    margin: 0,0;
+    height: 400px;
+    width: 835px;
+    background: white;
+    
+}
