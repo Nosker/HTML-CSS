@@ -26,11 +26,11 @@ $(function (){
 		hide("#user_con");
 	});		
 		
-	$(".panel")	.mouseover(function(){
+	$("#user_con")	.mouseover(function(){
 		show("#user_con");
 	});	
 		
-	$(".panel")	.mouseout(function(){
+	$("#user_con")	.mouseout(function(){
 		hide("#user_con");
 	});	
 	
