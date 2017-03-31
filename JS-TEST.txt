@@ -1,0 +1,65 @@
+
+
+/*绑定获得焦点入显示，失去焦点隐藏事件*/
+
+	//	$(a).css({background:"#fff",color:"#2dc3e8",font-weight:"bold",border-bottom:"2px #2dc3e8 solid"});
+
+//			$(a).css({background:"#fff",color:"#2dc3e8",font-weight:"bold",border-bottom:"2px #2dc3e8 solid"});
+//			$(b).css({display:"block"});
+
+
+/*
+:hover {
+	background:#fff;
+	color:#2dc3e8;
+	font-weight:bold;
+	border-bottom:2px #2dc3e8 solid;
+	
+}
+:hover {
+	background:#fff;
+	color:#2dc3e8;
+	font-weight:bold;
+	border-bottom:2px #2dc3e8 solid;
+	
+}
+	
+*/
+
+
+
+
+
+
+//
+//itemShowHide(".attention",".attention-context");
+//
+//
+//itemShowHide(".team",".team-context");
+	
+	
+
+/*	
+	
+.attention:hover {
+	background:#fff;
+	color:#2dc3e8;
+	font-weight:bold;
+	border-bottom:2px #2dc3e8 solid;
+	
+}
+.team:hover {
+	background:#fff;
+	color:#2dc3e8;
+	font-weight:bold;
+	border-bottom:2px #2dc3e8 solid;
+	
+}	
+
+	
+	
+	
+	
+	*/
+	
+	

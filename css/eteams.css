@@ -8,7 +8,7 @@ html,body {
     padding: 0;
 }
 /* 上导航栏定位 */
-body {	background: #EEEEEE }
+body {	background: #eee }
 .mainhead-postion {
     position: absolute;
     z-index: 100;
@@ -83,10 +83,10 @@ body {	background: #EEEEEE }
 
 .task-div {
 	position: absolute;
-   	margin: 0px  280px;   	
+   	margin: 0px  260px;   	
    	height: 50px;
    	width: 105px;
- /*  	background-color: chartreuse;*/
+  	background-color: chartreuse;
 }
 
 .task-icon {
@@ -357,7 +357,8 @@ body {	background: #EEEEEE }
  	color:red;
  	text-decoration:none;
 }
-.hruser-ul li a.last { 	border-right:0; /* 去掉左侧边框 */}
+/* 去掉左侧边框 */
+.hruser-ul li a.last { 	border-right:0 }
 /**中间部分*/
 .self-info {
 	position: absolute;
@@ -498,13 +499,17 @@ body {	background: #EEEEEE }
 .authority-description-li-content p {	margin: 10px 0;}
 
 
-#user_con {
+#user-con {
     position: absolute;
     margin: 0,0;
     height: 400px;
     width: 835px;
-	background: #eee;
     z-index: 5;
+	background: #eee;
+	filter: alpha(opacity=60);
+	/*IE、火狐 遮罩层*/
+	opacity:1;
+	-moz-opacity:1; 
     
 }
 .selfcon {
@@ -529,11 +534,14 @@ body {	background: #EEEEEE }
 	width: 130px;
 	list-style: none;
 	font-size: 16px;
+
+}
+.selfcon ul li:hover{
 	
-	
+	background: #2dc3e8;
+	color: white;
 }
 .selfcon ul li {
-	border: 1px #808080 solid;
 	margin-top: 5px;
 	height: 20px;
 	padding: 5px;
@@ -542,11 +550,10 @@ body {	background: #EEEEEE }
 	font-size: 16px;
 	text-align:center;
 	background-color: #eee;
-	color: gray;
-		
+	border: 1px gray solid;
+	color: gray;	
 }
-
-.staff_search span {
+.staff-search span {
 	margin:  10px 200px;
 	padding: 5px;
 	display: block;
@@ -554,14 +561,14 @@ body {	background: #EEEEEE }
 	font-style:italic;
 	color: gray;
 }
-.staff_search input {
+.staff-search input {
 	display: block;
 	margin: -34px 600px;
 }
 .panel {
 	margin-top: 50px;
 	margin-left: 210px;
-	border: 1px #cdcdcd solid;
+	border: none;
 	height: 280px;
 	width: 590px;	
 	background: white;
@@ -572,22 +579,38 @@ body {	background: #EEEEEE }
 	margin: 0;
 	height: 40px;
 	width: 295px;	
-	border: 1px #cdcdcd solid;
-	background: #fff;
+	border-bottom: 2px #cdcdcd solid;
+	background: #f3f3f3;
 }
 .attention span {
 	display: block;
 	padding-top: 10px;
 	text-align: center;
 	font-size: 14px;
-	color: #0092B6;
+	color: gray;
 }
+
+.team:hover {
+	background:#fff;
+	font-weight:bold;
+	border-bottom:2px #2dc3e8 solid;
+	color:#2dc3e8;
+	
+}
+.attention:hover {
+	background:#fff;
+	font-weight:bold;
+	border-bottom:2px #2dc3e8 solid;
+	color:#2dc3e8;
+	
+}
+
 .team {
 	margin:-43px 295px;
 	height: 40px;
 	width: 295px;	
-	border: 1px #cdcdcd solid;
-	background: #eee;
+	border-bottom: 2px #cdcdcd solid;
+	background: #f3f3f3;
 }
 .team span {
 	display: block;
@@ -596,11 +619,29 @@ body {	background: #EEEEEE }
 	font-size: 14px;
 	color: gray;
 }
-.panel-context span {
-	margin-top: 100px;
+.attention-context {
+	margin-top: 45px;
+	height: 260px;
+	width: 100%;
+	background: #fff;
+	display: block;
+	
+}
+.team-context {
+	position: absolute;
+	top: 97px;
+	height: 250px;
+	width: 590px;
+	background: white;
+	display: none;
+}
+.attention-context span {
+	
+	padding-top:90px ;
 	display: block;
 	text-align: center;
 	font-size: 14px;
+	vertical-align: middle;
 	color: #808080;
 }
 
@@ -609,11 +650,15 @@ body {	background: #EEEEEE }
 	color: #0092B6;
 	
 }
+
+
+
 #follow {
 	margin-top: 10px;
 	margin-left:210px ;
 }
-#follow,#morefollow {
+#follow,
+#morefollow {
 	color: gray;
 	background: white;
 	border: 1px gray  solid;
@@ -624,10 +669,10 @@ body {	background: #EEEEEE }
 #inviting_olleague {
 	margin-top: 20px ;
 	margin-left: 607px;
-	background: #ED5565;
+	background: #ed5565;
 	color: white;
 }
 #team-con {
-	background: #25B6E3;
+	background: #25b6e3;
 	color: white;
 }

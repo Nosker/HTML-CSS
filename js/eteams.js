@@ -1,59 +1,34 @@
 $(function (){
-	
-	//   开始时隐藏全部菜单
-	function hideall(){
-		$("#user_con").hide();
-		
-	}
-//	hideall();
 
-//	// 根据传入的id 让其隐藏。
-	function hide(obj){
-		$(obj).hide();
-	};
-	function show(obj){
-		$(obj).show();
-	};
-		
+
+$("#user-con").hide();
+
+/***
+ * 参数：
+ * selfId： 绑定对象的ID
+ * optionId： 操作对象的ID
+ * 作用： 根据传入的    绑定对象的ID 添加 获得焦点入显示，失去焦点隐藏功能
+ * */
+var itemShowHide = function(selfId,optionId){
+//	alert(selfId+ "---------"+optionId);
 	
-	
-	
-	$(".user-div").mouseover(function(){
-		show("#user_con");
-	});	
-		
-	$(".user-div").mouseout(function(){
-		hide("#user_con");
+	$(selfId).mouseover(function(){
+		$(optionId).show();
+
 	});		
-		
-	$("#user_con")	.mouseover(function(){
-		show("#user_con");
+	$(selfId).mouseout(function(){
+		$(optionId).hide();
 	});	
-		
-	$("#user_con")	.mouseout(function(){
-		hide("#user_con");
-	});	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+	itemShowHide(optionId,optionId);
+}
+
+itemShowHide(".user-div","#user-con");
+
+//   默认时隐藏全部菜单
+
+
+
+
 	
 	
 	
