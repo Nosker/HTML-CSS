@@ -242,8 +242,7 @@ body {	background: #eee }
 .left-gps {
 	position: absolute;
 	margin: 50px 0;
-	height: 980px;
-    
+	height: 100%;
 	width: 220px;	
 	background: #273240;
 	color: #d2d2d2;

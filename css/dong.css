@@ -1,0 +1,319 @@
+/**
+ * 
+ * 
+ */
+.user-div:hover {  background-color: #0092B6}
+.home-div:hover {  background-color: #0092B6}
+.task-div:hover {  background-color: #0092B6}
+.approve:hover  {  background-color: #0092B6}
+.adhibition:hover {background-color: #0092B6}
+
+.hruser-ul li a:hover {
+	
+ 	color:red;
+ 	text-decoration:none;
+}
+.team:hover {
+	background:#fff;
+	border-bottom:2px #2dc3e8 solid;
+	font-weight:bold;
+	color: #273240;
+}
+.attention:hover {
+	font-weight:bold;
+	background:#fff;
+	border-bottom:2px #2dc3e8 solid;
+	color: #2dc3e8;
+}
+.follow:hover{	background: #eee }
+.morefollow:hover{	background: #eee }
+
+#user-con {
+    position: absolute;
+    margin: 0,0;
+    height: 420px;
+    width: 835px;
+    z-index: 5;
+	background: #eee;
+	filter: alpha(opacity=80);  
+}
+.selfcon {
+	position: absolute;
+	height: 300px;
+	width: 180px;
+	background: #eee;
+}
+
+.selfcon-icon {
+	position: absolute;
+	margin: 20px 50px;
+	height: 58px;
+	width: 58px;
+	border-radius: 50%;
+	background-image: url(../img/photo_max.png);
+}
+.selfcon ul {
+	margin: 100px 20px;
+	padding: 0;
+	width: 130px;
+	list-style: none;
+	font-size: 16px;
+}
+.selfcon ul li:hover{
+	background: #2dc3e8;
+	color: white;
+}
+.selfcon ul li {
+	margin-top: 5px;
+	height: 20px;
+	padding: 5px;
+	border-radius: 5px;
+	list-style: none;
+	font-size: 16px;
+	text-align:center;
+	background-color: #eee;
+	border: 1px gray solid;
+	color: gray;	
+}
+.staff-search span {
+	margin:  10px 200px;
+	padding: 5px;
+	display: block;
+	font-size: 16px;
+	font-style:italic;
+	color: gray;
+}
+.staff-search input {
+	display: block;
+	margin: -34px 600px;
+}
+.panel {
+	margin-top: 50px;
+	margin-left: 210px;
+	border: none;
+	height: 280px;
+	width: 590px;	
+	background: white;
+}
+.attention {
+	margin: 0;
+	height: 40px;
+	width: 295px;	
+	border-bottom: 2px #cdcdcd solid;
+	background: #f3f3f3;
+}
+.attention span {
+	display: block;
+	padding-top: 10px;
+	text-align: center;
+	font-size: 14px;
+	color: gray;
+}
+
+.team {
+	margin:-43px 295px;
+	height: 40px;
+	width: 295px;	
+	border-bottom: 2px #cdcdcd solid;
+	background: #f3f3f3;
+}
+.team span {
+	display: block;
+	padding-top: 10px;
+	text-align: center;	
+	font-size: 14px;
+	color: gray;
+}
+.attention-context {
+	margin-top: 45px;
+	height: 260px;
+	width: 100%;
+	background: #fff;
+	display: block;
+}
+.team-context {
+	position: absolute;
+	top: 97px;
+	height: 250px;
+	width: 590px;
+	background: white;
+	display: none;
+}
+.attention-context span {
+	padding-top:90px ;
+	display: block;
+	text-align: center;
+	font-size: 14px;
+	vertical-align: middle;
+	color: #808080;
+}
+.panel-context span a {
+	text-decoration: none;
+	color: #0092B6;
+}
+.follow {	margin: 10px 10px 0 200px }
+.follow,
+.morefollow {
+	background: white;
+	border: .5px gray  solid;
+	color: gray;
+}
+.inviting-olleague{
+	display: block;
+	margin-top: 40px;
+	margin-left: 600px;
+	background: #ed5565;
+	color: white;
+}
+.team-con {
+	display: block;
+	position: absolute;
+	margin-top: -26px;
+	margin-left: 688px;
+	background: #2dc3e8;
+	color: white;
+}
+.home {
+	position: absolute;
+	margin: -21px 220px;
+	height: 300px;
+	width: 153px;
+	background: white;
+}
+/*.ofo {
+   	margin-top: 16px;
+   	margin-left: 15px;
+	height: 16px;
+    width: 16px;    
+    background-position: 0 0;
+    background-image: url(../img/eteams_icons.png);
+    background-repeat: no-repeat;
+    display: block;	
+}*/
+.home ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;	
+	background: white;
+}
+.home ul li {
+	margin: 1px;
+	padding: 4px;
+	height: 20px;
+	width: 153px;
+	background: white;
+	
+}
+.home ul li:hover{ 
+	background: #2dc3e8;
+	color: white;
+}
+.home ul a{	
+	text-decoration: none;
+	color: gray;
+}	
+/*修改密碼*/
+.hidebody {
+    position:absolute;
+    width:100%;
+    height:100%;
+    z-index:100;
+    background-color:#000;
+    top:0;
+    left:0;
+    opacity:0.3;
+    /*兼容IE8及以下版本浏览器*/
+    filter: alpha(opacity=30);
+    display:block;
+}
+.modifypass {
+	position:absolute;
+	left: 650px;
+	height: 265px;
+	width: 560px;
+	z-index:200;
+	background: white;
+	
+}
+.anew {
+	position: absolute;
+	list-style: none;
+	top: 15px;
+	padding-left: 20px;
+	width: 100%;
+	height: 35px;
+	border-bottom: 1px  #cdcdcd solid; 
+}
+.reminder {
+	position: absolute;
+	margin-top: 60px;
+	list-style: none;
+	padding-left: 20px;
+}
+.pass-con {
+	position: absolute;
+	top: 100px;
+	left: 40px;
+	width: 470px;	
+}
+
+.email-itme,
+.verify,
+.btnes {
+	width: 470px;
+	height: 40px;
+	
+}
+
+#pass {
+	position: absolute;
+	margin-left: 20px;
+	
+}
+
+.email-itme a {
+position: absolute;
+margin-left: 30px;
+
+}
+.email-itme button {
+	position: absolute;
+	margin-left: 240px;
+	
+}
+
+.next,
+#abolish {
+	height: 35px;
+	border-radius: 5;
+
+	
+}
+
+.next {
+	position: absolute;
+	margin-top: 5px;
+	margin-left: 65px;
+	width: 60px;
+	background: #2DC3D8;
+	color: white;
+	border: none;
+}
+#abolish {
+	position: absolute;
+	margin-top: 5px;
+	margin-left: 140px;
+	background: white;
+	border: 1px #cdcdcd solid;
+}
+
+
+
+
+
+
+
+
+
+
+

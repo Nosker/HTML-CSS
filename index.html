@@ -69,9 +69,9 @@
 			<div class="main-hd">
 				<i class="hruser-icon"></i>
 				<ul class="hruser-ul">
-					<li><a href="#">基本信息</a></li>
-					<li><a href="#">用户下属</a></li>
-					<li><a href="#">个人信息</a></li>
+					<li id="basic-information"><a href="#">基本信息</a></li>
+					<li id="subordinate"><a href="#">用户下属</a></li>
+					<li id="selinco"><a href="#">个人信息</a></li>
 					<li><a href="#">人事合同</a></li>
 					<li><a href="#">第三方账号</a></li>
 					<li><a href="#">邮箱设置</a></li>
@@ -83,7 +83,7 @@
 				<ul class="self-info-ul">
 					<li><span>姓名 :</span><input class="user-name" value="Ages"  /></li>
 					<li><span>账号 :</span><label class="user-number">1575065652@qq.com</label></li>
-					<li><span>邮箱 :</span><label class="user-email">1575065652@qq.com</label>&nbsp;<a href="#">[更换绑定]</a></li>
+					<li><span>邮箱 :</span><label class="user-email">1575065652@qq.com</label>&nbsp;<a href="#" id="modpass">[更换绑定]</a></li>
 					<li><span>手机 :</span><input class="user-phone"/>&nbsp;<a href="#">[绑定]</a></li>				
 					<li><span>密码 :</span><button class=" user-pass">重置密码</button></li>
 					<li><span>性别 :</span><input  class="user-sex"  type="radio"  name="sex" value="男"/>男<input type="radio"name="sex" value="女"/>女</li>				
@@ -191,13 +191,20 @@
 			</ul>
 		</div>
 		
-		
-		
-		
-		
-		
-		
 		<!-- 修改密码弹出框 -->
-		<!-- 修改密码弹出框 -->
+		<div class="hidebody" id="hidebody"></div>
+		<div class="modifypass" id="modifypass">
+			<div class="message" id="message">
+				<li class="anew">重新绑定邮件</li>
+				<i class="close"></i>
+			</div>
+			<li class="reminder">为了保证您的账号安全，更换密保邮箱前请先进行安全验证</li>
+			<div class="pass-con">
+				<div class="email-itme"><label>邮件</label><a>1359526598@qq.com</a><button>发送验证码</button></div>
+				<div class="verify">验证码  <input type="text" id="pass"></div>
+				<div class="btns"><button class="next">下一步</button><button id="abolish">取消</button></div>
+			</div>
+		</div>
+	
 	</body>
 </html>
