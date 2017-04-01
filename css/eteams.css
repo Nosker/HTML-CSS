@@ -28,7 +28,6 @@ body {	background: #eee }
     height: 50px;
     width: 220px;
 }
-.user-div:hover{  background-color: #0092B6 }
 /* user图标定位  */
 .user-icon {
     position: absolute;
@@ -65,12 +64,12 @@ body {	background: #eee }
 	position: absolute;
 	margin: 0 220px;
 	height: 50px;
-	width: 48px;	
-/*	background-color: #273240;*/
+	width: 48px;
+	background: #2dc3d8;	
 }
 .home-icon {
-
-   	margin: 16px  16px;
+   	margin-top: 16px;
+   	margin-left: 15px;
 	height: 16px;
     width: 16px;    
     background-position: 0 0;
@@ -78,71 +77,69 @@ body {	background: #eee }
     background-repeat: no-repeat;
     display: block;
 }
-
 /* 任务 */
-
 .task-div {
 	position: absolute;
-   	margin: 0px  260px;   	
+   	margin: 0px  268px;   	
    	height: 50px;
-   	width: 105px;
-  	background-color: chartreuse;
+   	width: 100px;
+ 	background: #2dc3d8;
 }
 
 .task-icon {
 	position: absolute;
-   	margin: 17px  0;  
+   	margin-top: 15px;  
+   	margin-left: 20px;
 	height: 16px;
     width: 16px;  
     background-position: -33px 0;
     background-image: url(../img/eteams_icons.png);
     background-repeat: no-repeat;
     display: block;
-	
 }
 .task-font {
 	position: absolute;
-	margin-left: 20px;
+	margin-left: 45px;
 	margin-top: 12px;	
 	font-size: 16px;
 	color: #fff;
 }
-
 /* 审批 */
 .approve {
 	position: absolute;
-	margin: 0 380px;	
+	margin-top: 0 ;
+	margin-left: 368px;	
 	height: 50px;
-	width: 117px;
-/*	background: fuchsia;*/
+	width: 100px;
+	background: #2dc3d8;
 }
 .approve-icon {
 	position: absolute;
-   	margin: 17px  0; 
+   	margin-top: 17px; 
+   	margin-left: 15px;
 	height: 16px;
     width: 16px;  
     background-position: -95px 0;
     background-image: url(../img/eteams_icons.png);
     background-repeat: no-repeat;
     display: block;
-	
 }
 .approve-text {
 	position: absolute;
-	margin-left: 20px;
+	margin-left: 40px;
 	margin-top: 13px;	
 	font-size: 16px;
 	color: #fff;
 }
-
 /* 更多应用 */
 .adhibition {
 	position: absolute;
-   	margin: 0px  470px;  	
+   	margin: 0px  468px;  	
    	height: 50px;
-   	width: 117px;
-  /* 	background-color: antiquewhite;*/
+   	width: 120px;
+	background: #2dc3d8;
 }
+
 .adhibition-icon {
 	position: absolute;
 	margin: 20px 99px;	
@@ -256,7 +253,6 @@ body {	background: #eee }
 	height: 330px;
 	width: 220px;
 	background: #1e2631;
-		
 }
 /*个人设置*/
 .self-con {
@@ -280,7 +276,7 @@ body {	background: #eee }
 }
 .self-ul {
 	position: absolute;
-	list-style-type:none;				/* 不显示项目符号 */
+	list-style-type:none;
 	margin: 0;
 	padding: 0;
 }
@@ -319,7 +315,6 @@ body {	background: #eee }
 	border: 1px;
 	border-bottom-color: #CDCDCD;
 	border-bottom-style: solid;
-
 }
 .hruser-icon {
 	position: absolute;
@@ -352,11 +347,7 @@ body {	background: #eee }
  	text-decoration: none;
  	border: 0;
 }
-.hruser-ul li a:hover {
- 	border-bottom:1px solid red;	
- 	color:red;
- 	text-decoration:none;
-}
+
 /* 去掉左侧边框 */
 .hruser-ul li a.last { 	border-right:0 }
 /**中间部分*/
@@ -375,8 +366,6 @@ body {	background: #eee }
 	border: 1px #cdcdcd solid;
 	border-bottom: 0;
 	color: grey;
-	
-
 }
 .self-info-ul li {
 	padding: 10px  20px;
@@ -401,7 +390,6 @@ body {	background: #eee }
 	width: 110px;
 	color: #F3F3F3;
 	background: #2DC3E8;
-	
 }
 .user-name,
 .user-phone {
@@ -497,182 +485,3 @@ body {	background: #eee }
 	height: 120px;
 }
 .authority-description-li-content p {	margin: 10px 0;}
-
-
-#user-con {
-    position: absolute;
-    margin: 0,0;
-    height: 400px;
-    width: 835px;
-    z-index: 5;
-	background: #eee;
-	filter: alpha(opacity=60);
-	/*IE、火狐 遮罩层*/
-	opacity:1;
-	-moz-opacity:1; 
-    
-}
-.selfcon {
-	position: absolute;
-	height: 400px;
-	width: 180px;
-	background: #eee;
-}
-
-.selfcon-icon {
-	position: absolute;
-	margin: 20px 50px;
-	height: 58px;
-	width: 58px;
-	border-radius: 50%;
-	background-image: url(../img/photo_max.png);
-}
-
-.selfcon ul {
-	margin: 100px 20px;
-	padding: 0;
-	width: 130px;
-	list-style: none;
-	font-size: 16px;
-
-}
-.selfcon ul li:hover{
-	
-	background: #2dc3e8;
-	color: white;
-}
-.selfcon ul li {
-	margin-top: 5px;
-	height: 20px;
-	padding: 5px;
-	border-radius: 5px;
-	list-style: none;
-	font-size: 16px;
-	text-align:center;
-	background-color: #eee;
-	border: 1px gray solid;
-	color: gray;	
-}
-.staff-search span {
-	margin:  10px 200px;
-	padding: 5px;
-	display: block;
-	font-size: 16px;
-	font-style:italic;
-	color: gray;
-}
-.staff-search input {
-	display: block;
-	margin: -34px 600px;
-}
-.panel {
-	margin-top: 50px;
-	margin-left: 210px;
-	border: none;
-	height: 280px;
-	width: 590px;	
-	background: white;
-	
-	
-}
-.attention {
-	margin: 0;
-	height: 40px;
-	width: 295px;	
-	border-bottom: 2px #cdcdcd solid;
-	background: #f3f3f3;
-}
-.attention span {
-	display: block;
-	padding-top: 10px;
-	text-align: center;
-	font-size: 14px;
-	color: gray;
-}
-
-.team:hover {
-	background:#fff;
-	font-weight:bold;
-	border-bottom:2px #2dc3e8 solid;
-	color:#2dc3e8;
-	
-}
-.attention:hover {
-	background:#fff;
-	font-weight:bold;
-	border-bottom:2px #2dc3e8 solid;
-	color:#2dc3e8;
-	
-}
-
-.team {
-	margin:-43px 295px;
-	height: 40px;
-	width: 295px;	
-	border-bottom: 2px #cdcdcd solid;
-	background: #f3f3f3;
-}
-.team span {
-	display: block;
-	padding-top: 10px;
-	text-align: center;	
-	font-size: 14px;
-	color: gray;
-}
-.attention-context {
-	margin-top: 45px;
-	height: 260px;
-	width: 100%;
-	background: #fff;
-	display: block;
-	
-}
-.team-context {
-	position: absolute;
-	top: 97px;
-	height: 250px;
-	width: 590px;
-	background: white;
-	display: none;
-}
-.attention-context span {
-	
-	padding-top:90px ;
-	display: block;
-	text-align: center;
-	font-size: 14px;
-	vertical-align: middle;
-	color: #808080;
-}
-
-.panel-context span a {
-	text-decoration: none;
-	color: #0092B6;
-	
-}
-
-
-
-#follow {
-	margin-top: 10px;
-	margin-left:210px ;
-}
-#follow,
-#morefollow {
-	color: gray;
-	background: white;
-	border: 1px gray  solid;
-	
-}
-#follow,
-#morefollow:hover{	background: #eee;}
-#inviting_olleague {
-	margin-top: 20px ;
-	margin-left: 607px;
-	background: #ed5565;
-	color: white;
-}
-#team-con {
-	background: #25b6e3;
-	color: white;
-}
